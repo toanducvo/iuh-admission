@@ -1,0 +1,232 @@
+{
+  "campusName": "Cơ sở chính",
+  "address": "12 Nguyễn Văn Bảo, Phường 04, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+  "admissionYear": 2022,
+  "admissionCombinedMapping": {
+    "A00": ["Toán", "Vật lý", "Hóa học"],
+    "A01": ["Toán", "Tiếng Anh", "Vật Lý"],
+    "B00": ["Toán", "Hóa học", "Sinh học"],
+    "D01": ["Toán", "Ngữ Văn", "Tiếng Anh"],
+    "D07": ["Toán", "Tiếng Anh", "Hóa học"],
+    "C00": ["Ngữ văn", "Lịch sử", "Địa lý"],
+    "C01": ["Toán", "Ngữ văn", "Vật lý"],
+    "C02": ["Toán", "Ngữ văn", "Hóa học"],
+    "C08": ["Ngữ văn", "Hóa học", "Sinh học"],
+    "D14": ["Ngữ văn", "Tiếng Anh", "Lịch sử"],
+    "D15": ["Ngữ văn", "Tiếng Anh", "Địa lý"],
+    "D90": ["Toán", "Tiếng Anh", "Khoa học tự nhiên"],
+    "D96": ["Toán", "Tiếng Anh", "Khoa học xã hội"]
+  },
+  "majors": [
+    {
+      "majorName": "Công nghệ kỹ thuật điện, điện tử",
+      "majorCode": "7510301",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Nhóm ngành tự động hóa",
+      "majorCode": "7510303",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ kỹ thuật điện tử - viễn thông",
+      "majorCode": "7510302",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ kỹ thuật máy tính",
+      "majorCode": "7480108",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ kỹ thuật cơ khí",
+      "majorCode": "7510201",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ kỹ thuật cơ điện tử",
+      "majorCode": "7510203",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ chế tạo máy",
+      "majorCode": "7510202",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ kỹ thuật ô tô",
+      "majorCode": "7510205",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ kỹ thuật nhiệt",
+      "majorCode": "7510206",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Kỹ thuật xây dựng",
+      "majorCode": "7580201",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Kỹ thuật xây dựng công trình giao thông",
+      "majorCode": "7580205",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Công nghệ dệt, may",
+      "majorCode": "7540204",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Thiết kế thời trang",
+      "majorCode": "7210404",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Nhóm ngành Công nghệ thông tin",
+      "majorCode": "7480201",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Nhóm ngành Công nghệ thông tin Chất lượng cao",
+      "majorCode": "7480201C",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Nhóm ngành Công nghệ hóa học",
+      "majorCode": "7510401",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "B00", "D07", "C02"]
+    },
+    {
+      "majorName": "Dược học",
+      "majorCode": "7720201",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "B00", "D07", "C08"]
+    },
+    {
+      "majorName": "Công nghệ thực phẩm",
+      "majorCode": "7540101",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "B00", "D07", "D90"]
+    },
+    {
+      "majorName": "Dinh dưỡng và Khoa học thực phẩm",
+      "majorCode": "7720497",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "B00", "D07", "D90"]
+    },
+    {
+      "majorName": "Đảm bảo chất lượng và An toàn thực phẩm",
+      "majorCode": "7540106",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "B00", "D07", "D90"]
+    },
+    {
+      "majorName": "Nhóm ngành Công nghệ sinh học",
+      "majorCode": "7420201",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "B00", "D07", "D90"]
+    },
+    {
+      "majorName": "Nhóm ngành Quản lý đất đai và Kinh tế tài nguyên",
+      "majorCode": "7850103",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A01", "C01", "D01", "D96"]
+    },
+    {
+      "majorName": "Nhóm ngành Quản lý tài nguyên môi trường",
+      "majorCode": "7850101",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["B00", "C02", "D90", "D96"]
+    },
+    {
+      "majorName": "Kế toán",
+      "majorCode": "7340301",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Kiểm toán",
+      "majorCode": "7340302",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Phân tích Tài chính - Kinh doanh",
+      "majorCode": "7340303",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Tài chính ngân hàng",
+      "majorCode": "7340201",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "A01", "C01", "D90"]
+    },
+    {
+      "majorName": "Quản trị kinh doanh",
+      "majorCode": "7340101",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A01", "C01", "D01", "D96"]
+    },
+    {
+      "majorName": "Marketing",
+      "majorCode": "7340115",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A01", "C01", "D01", "D96"]
+    },
+    {
+      "majorName": "Nhóm ngành Quản trị dịch vụ du lịch và lữ hành",
+      "majorCode": "7810103",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A01", "C01", "D01", "D96"]
+    },
+    {
+      "majorName": "Kinh doanh quốc tế",
+      "majorCode": "7340120",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A01", "C01", "D01", "D96"]
+    },
+    {
+      "majorName": "Thương mại điện tử",
+      "majorCode": "7340122",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["A01", "C01", "D01", "D90"]
+    },
+    {
+      "majorName": "Ngôn ngữ Anh",
+      "majorCode": "7220201",
+      "hasAdvancedProgram": false,
+      "admissionCombined": ["D01", "D14", "D15", "D96"]
+    },
+    {
+      "majorName": "Luật kinh tế",
+      "majorCode": "7380107",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "C00", "D01", "D96"]
+    },
+    {
+      "majorName": "Luật quốc tế",
+      "majorCode": "7380108",
+      "hasAdvancedProgram": true,
+      "admissionCombined": ["A00", "C00", "D01", "D96"]
+    }
+  ]
+}

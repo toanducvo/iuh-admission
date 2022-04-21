@@ -1,0 +1,8 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+input#fullName,
+input#issuedBy {
+  text-transform: uppercase !important;
+}

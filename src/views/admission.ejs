@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./partials/head'); %>
+    <title>
+      Đăng ký xét tuyển bằng học bạ Trường đại học Công nghiệp Thành phố Hồ Chí
+      Minh
+    </title>
+</head>
+
+<body>
+  <div class="container-lg">
+    <%- include('./partials/header'); %>
+      <hr />
+      <form>
+        <h3>Phần thông tin cá nhân</h3>
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="fullName" class="form-label">Họ và tên thí sinh</label>
+          </div>
+          <div class="col-10">
+            <input type="text" name="fullName" id="fullName" class="form-control" placeholder="Nhập họ và tên"
+              required />
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="citizenId" class="form-label">CCCD/CMND</label>
+          </div>
+          <div class="col-10">
+            <input type="text" name="citizenId" id="citizenId" class="form-control" placeholder="Nhập CCCD/CMND"
+              required />
+            <div class="row my-3">
+              <div class="col-2">
+                <label class="form-label" for="issuedBy">Nơi cấp</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="text" id="issuedBy" name="issuedBy" placeholder="Nơi cấp" required />
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-2">
+                <label class="form-label" for="issuedDate">Ngày cấp</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="date" id="issuedDate" name="issuedDate" required />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="gender" class="form-label">Giới tính</label>
+          </div>
+          <div class="col-10">
+            <select class="form-select" name="gender" id="gender" required>
+              <option value="gender" selected disabled>Giới tính</option>
+              <option value="0">Nam</option>
+              <option value="1">Nữ</option>
+              >
+            </select>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="birthday" class="form-label">Ngày sinh</label>
+          </div>
+          <div class="col-10">
+            <input type="date" name="birthday" id="birthday" class="form-control" placeholder="Nhập ngày sinh"
+              required />
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label class="form-label" for="ethnic">Dân tộc</label>
+          </div>
+          <div class="col-10">
+            <input class="form-control" type="text" id="ethnic" name="ethnic" placeholder="Dân tộc" required />
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="phoneNumber" class="form-label">Số điện thoại</label>
+          </div>
+          <div class="col-10">
+            <div class="input-group">
+              <span class="input-group-text">+84</span>
+              <input type="text" name="phoneNumber" id="phoneNumber" class="form-control"
+                placeholder="Nhập số điện thoại" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="email" class="form-label">Email</label>
+          </div>
+          <div class="col-10">
+            <input type="email" name="email" id="email" class="form-control" placeholder="Nhập email" required />
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label class="form-label" for="permanentAddress">Địa chỉ thường trú</label>
+          </div>
+          <div class="col-10">
+            <input class="form-control" type="text" id="permanentAddress" name="permanentAddress"
+              placeholder="Địa chỉ thường trú" required />
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label class="form-label" for="contactAddress">Địa chỉ liên hệ</label>
+          </div>
+          <div class="col-10">
+            <input class="form-control" id="contactAddress" name="contactAddress" type="text"
+              placeholder="Địa chỉ liên hệ" required />
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="school" class="form-label">Trường THPT</label>
+          </div>
+          <div class="col-10">
+            <input type="text" name="school" id="school" class="form-control" placeholder="Nhập tên trường THPT"
+              required />
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label class="form-label" for="gradYear">Năm tốt nghiệp THPT hoặc tương đương</label>
+          </div>
+          <div class="col-10">
+            <input class="form-control" name="gradYear" id="gradYear" type="number" placeholder="Năm tốt nghiệp"
+              min="1900" max="2022" required />
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label class="form-label" for="admissionArea">Khu vực tuyển sinh</label>
+          </div>
+          <div class="col-10">
+            <select class="form-select" id="admissionArea" name="admissionArea" required>
+              <option value="0" selected disabled>Khu vực tuyển sinh</option>
+              <option value="1">KV1</option>
+              <option value="2">KV2</option>
+              <option value="2NT">KV2-NT</option>
+              <option value="3">KV3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-2">
+            <label class="form-label" for="admissionPrior">Đối tượng ưu tiên trong tuyển sinh</label>
+          </div>
+          <div class="col-10">
+            <select class="form-select" id="admissionPrior" name="admissionPrior" required>
+              <option value="00" selected>Không có</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+            </select>
+          </div>
+        </div>
+
+        <h3>Phần đăng ký xét tuyển</h3>
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="major" class="form-label">Đăng ký ngành</label>
+          </div>
+          <div class="col-10">
+            <select class="form-select" id="major" name="major" required>
+              <option value="major" selected disabled>Ngành</option>
+            </select>
+
+            <select class="form-select" id="group" name="group" required>
+              <option value="group" selected disabled>Tổ hợp</option>
+            </select>
+
+            <div class="row my-3">
+              <div class="col">
+                <label for="isAdvanced" class="form-label">Đăng ký ngành học chất lượng cao</label>
+              </div>
+              <div class="col">
+                <input class="form-check-input" type="checkbox" name="isAdvanced" id="isAdvanced" disabled />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2">
+            <label>Điểm trung bình lớp 12</label>
+          </div>
+          <div class="col-10" id="academicTranscript">
+            <div class="row">
+              <div class="col-2">
+                <label class="form-label" for="mathScore">Toán</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="mathScore" id="mathScore" placeholder="Toán" min="0"
+                  max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="physicsScore">Vật lý</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="physicsScore" id="physicsScore" placeholder="Vật lý"
+                  min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="chemistryScore">Hóa học</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="chemistryScore" id="chemistryScore"
+                  placeholder="Hóa học" min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="biologyScore">Sinh học</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="biologyScore" id="biologyScore" placeholder="Sinh học"
+                  min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="literatureScore">Ngữ văn</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="literatureScore" id="literatureScore"
+                  placeholder="Ngữ văn" min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="historyScore">Lịch sử</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="historyScore" id="historyScore" placeholder="Lịch sử"
+                  min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="geographyScore">Địa lý</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="geographyScore" id="geographyScore" placeholder="Địa lý"
+                  min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="foreignLanguageScore">Ngoại ngữ</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="foreignLanguageScore" id="foreignLanguageScore"
+                  placeholder="Ngoại ngữ" min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+
+            <div class="row my-2">
+              <div class="col-2">
+                <label class="form-label" for="civicEducationScore">Giáo dục công dân</label>
+              </div>
+              <div class="col-10">
+                <input class="form-control" type="number" name="civicEducationScore" id="civicEducationScore"
+                  placeholder="Giáo dục công dân" min="0" max="10" step="0.01" required />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <input class="form-label" type="checkbox" id="applicationTerm" name="applicationTerm" required />
+          </div>
+          <div class="col-11">
+            <label class="form-label" for="applicationTerm">Tôi xin cam đoan những lời khai trên Phiếu đăng ký xét tuyển
+              này
+              là đúng sự thật. Nếu sai tôi xin chịu xử lý theo Quy chế tuyển
+              sinh hiện hành của Bộ Giáo dục và Đào tạo.</label>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col text-center">
+            <button type="submit" class="btn btn-primary" id="btnSubmit" disabled required>
+              Nộp
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <hr />
+      <%- include('./partials/footer'); %>
+  </div>
+  <%- include('./partials/scripts'); %>
+    <script>
+      $(document).ready(function () {
+        const port = "4000";
+        $.ajax({
+          url: `http://localhost:${port}/admissions/majors`,
+          type: "POST",
+          success: function (data) {
+            $.each(data, function (index, value) {
+              $("select#major").append(
+                $("<option>", {
+                  value: value.majorCode,
+                  text: value.majorName,
+                })
+              );
+            });
+          },
+        });
+
+        $("select#major").change(function () {
+          $("select#group").empty();
+          $("select#group").append(
+            $("<option>", {
+              value: "group",
+              text: "Tổ hợp",
+              selected: true,
+              disabled: true,
+            })
+          );
+          $("input#isAdvanced").prop("checked", false);
+          $("input#isAdvanced").prop("disabled", true);
+
+          $.ajax({
+            url:
+              `http://localhost:${port}/admissions/majors/` +
+              $("select#major").val(),
+            type: "POST",
+            success: function (data) {
+              $.each(data.admissionCombined, function (index, value) {
+                $("select#group").append(
+                  $("<option>", {
+                    value: value,
+                    text: value,
+                  })
+                );
+              });
+
+              if (data.hasAdvancedProgram == true) {
+                $("input#isAdvanced").prop("checked", false);
+                $("input#isAdvanced").prop("disabled", false);
+              }
+            },
+          });
+        });
+
+        $("input#applicationTerm").on("click", () => {
+          const val = $("input#applicationTerm").prop("checked");
+          if (val) {
+            $("#btnSubmit").prop("disabled", false);
+          } else {
+            $("#btnSubmit").prop("disabled", true);
+          }
+        });
+
+        $("form").submit(function (e) {
+          e.preventDefault();
+
+          const isConfirmed = confirm("Xác nhận nộp đơn xét tuyển?").valueOf();
+          if (!isConfirmed) {
+            return;
+          }
+          const elements = e.target.elements;
+          const submitedData = {};
+
+          for (let i = 0; i < elements.length; i++) {
+            const element = elements[i];
+            if (element.name) {
+              submitedData[element.name] = element.value;
+            }
+          }
+
+          console.log(submitedData);
+
+          $.ajax({
+            url: `http://localhost:${port}/apply/admission/submit`,
+            type: "POST",
+            data: submitedData,
+            success: function (response) {
+              console.log(response);
+              alert(response.message);
+              if (response.status == "success") {
+                window.location.href = "/";
+              }
+            },
+          });
+        });
+      });
+    </script>
+</body>
+
+</html>
